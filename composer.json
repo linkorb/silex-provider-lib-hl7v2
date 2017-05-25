@@ -1,0 +1,28 @@
+{
+    "name": "linkorb/silex-provider-lib-hl7v2",
+    "description": "Services providing HL7v2 parsing and acknowledgement.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "LinkORB",
+            "email": "engineering@linkorb.com",
+            "role": "Development"
+        }
+    ],
+    "require": {
+        "linkorb/lib-hl7v2": "^1.2",
+        "pimple/pimple": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LinkORB\\Hl7v2\\": "lib/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/linkorb/lib-hl7v2.git"
+        }
+    ]
+}
